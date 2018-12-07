@@ -9,4 +9,5 @@
     <color name="off">#723CAF</color>
 
     <color name="bg_canvas">#4DFFFFFF</color>
+    <color name="white">#FFFFFF</color>
 </resources>

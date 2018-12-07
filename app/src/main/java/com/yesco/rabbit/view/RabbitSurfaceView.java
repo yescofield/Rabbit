@@ -172,6 +172,9 @@ public class RabbitSurfaceView extends SurfaceView implements Callback, Runnable
                             + OFFSET), paint);
                 }
             }
+            paint.setColor(getResources().getColor(R.color.white));
+            canvas.drawLine(0, OFFSET - WIDTH / 2, screenW, OFFSET - WIDTH / 2, paint);
+            canvas.drawLine(0, OFFSET + WIDTH * ROW + WIDTH / 2, screenW, OFFSET + WIDTH * ROW + WIDTH / 2, paint);
             int left;
             int top;
             if (cat.getY() % 2 == 0) {
