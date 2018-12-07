@@ -3,4 +3,10 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="in">#FFFFFF</color>
+    <color name="on">#FFFA75</color>
+    <color name="off">#723CAF</color>
+
+    <color name="bg_canvas">#4DFFFFFF</color>
 </resources>
