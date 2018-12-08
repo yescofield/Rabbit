@@ -366,32 +366,34 @@ public class RabbitSurfaceView extends SurfaceView implements Callback, Runnable
     // 通关失败
     private void failure() {
         AlertDialog.Builder dialog = new AlertDialog.Builder(context);
-        dialog.setTitle("通关失败");
-        dialog.setMessage("你让神经猫逃出精神院啦(ˉ▽ˉ；)...");
+        dialog.setTitle(getResources().getString(R.string.title_failure));
+        dialog.setMessage("");
         dialog.setCancelable(false);
-        dialog.setNegativeButton("再玩一次", new DialogInterface.OnClickListener() {
+        dialog.setNegativeButton(getResources().getString(R.string.restart), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 initGame();
                 canMove = true;
             }
         });
-        dialog.setPositiveButton("取消", null);
+        dialog.setPositiveButton(getResources().getString(R.string.cancel), null);
         dialog.show();
     }
 
     // 通关成功
     private void win() {
+        String testStr = getResources().getString(R.string.tips_win);
+        String message = String.format(testStr, steps + 1);
         AlertDialog.Builder dialog = new AlertDialog.Builder(context);
-        dialog.setTitle("通关成功");
-        dialog.setMessage("你用" + (steps + 1) + "步捕捉到了神经猫耶( •̀ ω •́ )y");
+        dialog.setTitle(getResources().getString(R.string.title_win));
+        dialog.setMessage(message);
         dialog.setCancelable(false);
-        dialog.setNegativeButton("再玩一次", new DialogInterface.OnClickListener() {
+        dialog.setNegativeButton(getResources().getString(R.string.restart), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 initGame();
                 canMove = true;
             }
         });
-        dialog.setPositiveButton("取消", null);
+        dialog.setPositiveButton(getResources().getString(R.string.cancel), null);
         dialog.show();
     }
 

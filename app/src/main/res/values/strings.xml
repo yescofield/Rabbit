@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Catch Rabbit</string>
+    <string name="restart">Restart Game</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="title_win">Arrest succeeded</string>
+    <string name="title_failure">Arrest failed</string>
+
+    <string name="tips_failure">You failed to catch the adorable rabbit(ˉ▽ˉ；)…</string>
+    <string name="tips_win">You caught the cute rabbit in %1$d steps( •̀ ω •́ )…</string>
 </resources>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">抓捕萌兔兔</string>
+    <string name="restart">再玩一次</string>
+    <string name="cancel">取消</string>
+
+    <string name="title_win">抓捕成功</string>
+    <string name="title_failure">抓捕失败</string>
+
+    <string name="tips_failure">你抓捕萌兔兔失败啦(ˉ▽ˉ；)…</string>
+    <string name="tips_win">你用%1$d步捕捉到了神经猫耶( •̀ ω •́ )…</string>
+</resources>
