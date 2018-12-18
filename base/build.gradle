@@ -1,13 +1,13 @@
 apply plugin: 'com.android.feature'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion rootProject.ext.compileSdkVersion
     baseFeature true
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 28
-        versionCode 100000
-        versionName "1.0.0"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
     }
     buildTypes {
         release {
