@@ -7,5 +7,5 @@
     <string name="title_failure">抓捕失败</string>
 
     <string name="tips_failure">你抓捕萌兔兔失败啦(ˉ▽ˉ；)…</string>
-    <string name="tips_win">你用%1$d步捕捉到了神经猫耶( •̀ ω •́ )…</string>
+    <string name="tips_win">你用%1$d步捕捉到了萌兔兔耶( •̀ ω •́ )…</string>
 </resources>

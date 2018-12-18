@@ -1,4 +1,4 @@
-package com.yesco.rabbit.view;
+package com.yesco.rabbit.feature.view;
 
 public class Point {
 

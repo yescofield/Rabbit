@@ -1,4 +1,4 @@
-package com.yesco.rabbit.view;
+package com.yesco.rabbit.feature.view;
 
 import android.app.AlertDialog;
 import android.content.Context;
